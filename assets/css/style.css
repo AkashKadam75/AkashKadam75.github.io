@@ -195,6 +195,12 @@ h6 {
     border-color: rgba(51, 51, 51, 0.15);
 }
 
+/*btn-primary*/
+.btn-primary-1{
+    background-color:#239BB4;
+    border-color: rgba(51, 51, 51, 0.15);
+}
+
 .btn-primary:hover, 
 .btn-primary:focus, 
 .btn-primary.focus, 
@@ -574,13 +580,22 @@ SOCIAL ICON
 
 /*download-button*/
 .download-button a {
-    margin-right: 20px;
+    margin-top: 20px;
     color: #fff;
 }
 .download-button a i {
     margin-right: 10px;
 }
 
+/*download-button-1*/
+.download-button-1 a {
+    margin-top: 20px;
+    color: #fff;
+    position: relative;
+}
+.download-button-1 a i {
+    margin-right: 10px;
+}
 
 .biography{
     border-bottom-left-radius: 10px;
@@ -629,7 +644,7 @@ SOCIAL ICON
 /* === Video Section === */
 
 .video-section {
-    background: url(../images/video-bg.jpg) no-repeat center center;
+    background: url(../images/voice.png) no-repeat center center;
     background-size: cover;
     position: relative;
     min-height: 500px;
@@ -655,11 +670,11 @@ SOCIAL ICON
     height: 60px;
     line-height: 60px;
     font-size: 30px;
-    border: 1px solid #fff;
+    border: 1px solid #0000;
 }
 .video-intro a:hover {
     color: #68c3a3;
-    background-color: #fff;
+    background-color: #000000;
     border: 1px solid transparent;
 }
 
@@ -1804,7 +1819,7 @@ Icon for all respective meta
 }
 
 .video-introducing{
-    background: url(../images/video-bg.jpg) no-repeat center center;
+    background: url(../images/voice.png) no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
     min-height: 390px;
